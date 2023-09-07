@@ -614,6 +614,14 @@ mark, .mark {
 /* 5. general_hero
 --------------------------------------------------------------------------------*/
 
+.frame{
+    height: 70px;
+    width: 250px;
+    background: transparent no-repeat center;
+    background-size: cover;
+    margin: auto;
+}
+
 .hero {
     position: relative;
     background-size: cover;
