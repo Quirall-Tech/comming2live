@@ -347,7 +347,7 @@ input[type="checkbox"], input[type="radio"] {
 
 /* Typography */
 
-body {
+body{
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -355,6 +355,9 @@ body {
     font-weight: 400;
     font-family: "Roboto", sans-serif;
     color: #0c0c0e;
+}
+body::-webkit-scrollbar{
+    display: none;
 }
 
 body.md-skin-dark {
